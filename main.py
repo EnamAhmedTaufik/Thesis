@@ -16,16 +16,9 @@ st.image("https://media.wired.com/photos/63a11855a12918bc073554af/master/pass/02
 st.markdown('<p style="text-align: center;">Illustration: Scott Balmer, Wired</p>', unsafe_allow_html=True)
 
 # Search bars
-search_title = st.text_input("Search papers by title")
-search_year = st.selectbox("Filter papers by year", options=[None] + sorted(papers_df['Published Year'].astype(int).unique()))
 
 # # Filtering based on search terms
 filtered_papers = papers
-if search_title:
-    filtered_papers = [paper for paper in filtered_papers if search_title.lower() in paper["Paper"].lower()]
-if search_year:
-    filtered_papers = [paper for paper in filtered_papers if paper["Year"] == search_year]
-
 # Display filtered papers
 for paper in filtered_papers:
     st.header(paper["Paper Title"])
