@@ -1,1 +1,2 @@
-[Check This]([url](https://communalviolence.streamlit.app/))
+[Deploy
+](https://communalviolence.streamlit.app/)
