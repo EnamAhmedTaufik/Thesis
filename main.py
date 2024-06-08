@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Load the CSV file
-file_path = 'ComVio - ForPaperReview.csv'
+file_path = 'ComVio.csv'
 papers_df = pd.read_csv(file_path)
 papers_df = papers_df.dropna()
 papers = papers_df.to_dict(orient='records')
