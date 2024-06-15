@@ -1,4 +1,4 @@
-
+#Literature review papers from my undergraduate thesis
 <p align="center">
     <img src="https://media.wired.com/photos/63a11855a12918bc073554af/master/pass/02_Mind-your-language.jpg" alt="Illustration: Scott Balmer, Wired" width="600"/>
 </p>
@@ -15,8 +15,8 @@ This project showcases the literature review papers from my undergraduate thesis
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/amitabhadey/llm_papers.git
-   cd foundational-papers-llm
+   git clone https://github.com/EnamAhmedTaufik/Thesis.git
+   cd thesis
 
 2. **Install the required dependencies:**:
    Ensure you have Python installed. It's recommended to use a virtual environment.
